@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.row {
+  margin: 0
+}
+.regular {
+  font-size: .4cm;
+  text-align: justify;
+}
+
+.a4 {
+  width: 20cm;
+  height: 28cm !important;
+  overflow: hidden;
+}
+
+#horejsek {
+  padding-bottom: 0.2cm;
+}
+#horejsek .item {
+  padding: .1cm;
+  position: relative;
+  font-size: .4cm;
+  font-family: 'Bebas Neue', sans-serif;
+}
+#horejsek .odd {
+  background-color: #777;
+  color: white;
+}
+.dark {
+  background-color: #777;
+  color: white;
+}
+#web {
+  font-weight: bold;
+}
+
+#tophr {
+  border-top: 3px solid black;
+}
+/*.toplogo {
+  width: 2cm;
+}*/
+#nadpisdiv {
+  position: relative;
+}
+#nadpis {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.1cm;
+}
+#podnadpisem {
+  position: absolute;
+  font-size: 0.4cm;
+  top: 2.2cm;
+}
+#nazev {
+  height: 2.7cm;
+}
+
+h1, h2, h3, h4, h5, .card-header {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer {
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1cm;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+.blog blockquote {
+  font-style: italic;
+  padding-left: 1em;
+  border-left: 3px solid #383076;
+}
+
+.pagesplash {
+  height: 300px;
+  background-size: contain;
+  margin-bottom: 2em;
+}
+
+
+#logo {
+  margin-left: 20px;
+  height: 30px;
+}
+.top-bar-title {
+  margin-top: .5em;
+}
+
+.metadata {
+  font-size: 14px;
+  color: #777;
+}

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+
+  <script src="js/solid.js"></script>
+  <script src="js/brands.js"></script>
+  <script src="js/fontawesome.js"></script>
+  <script src="js/marked.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/render.js"></script>
+
+  <link rel="stylesheet" href="js/bootstrap.min.css">
+
+  <script src="content.js"></script>
+
+  <link rel="stylesheet" href="/js/roboto.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="a4">
+    <div class="row" id="horejsek">
+      <div class="col-2 item odd" id="hh1">
+        <script>$('#hh1').html(P1_ODKAZY_NAHORE[0].title + " <span class='page'>(str." + P1_ODKAZY_NAHORE[0].str + ")</span>")</script>
+      </div>
+      <div class="col-2 item">
+        fjslkfjkls
+        <span class="page">(str.2)</span>
+      </div>
+      <div class="col-2 item odd">
+        fjslkfjkls
+        <span class="page">(str.2)</span>
+      </div>
+      <div class="col-2 item">
+        fjslkfjkls
+        <span class="page">(str.2)</span>
+      </div>
+      <div class="col-2 item odd">
+        fjslkfjkls
+        <span class="page">(str.2)</span>
+      </div>
+      <div class="col-2 item">
+        fjslkfjkls
+        <span class="page">(str.2)</span>
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <img src="logo.svg" style="width: 3cm;" />
+      <div id="nadpisdiv" style="position: absolute; left: 3cm; width: 10.6cm; top: 0;">
+        <div id="nadpis">PIRÁTSKÉ LISTY</div>
+        <div id="podnadpisem">Léto 2018 ǀ piratskelisty.cz ǀ <span id='web'></span> ǀ Neprodejné</div>
+        <script>$('#web').html(WEB)</script>
+      </div>
+      <div style="position: absolute; left: 13.7cm; top: 0; border-left: 3px solid black; height: 100%; padding: .2cm;">
+        Nevim co sem, treba nejaky odkaz na osmismerku na konci novin ;)
+      </div>
+    </div>
+
+    <div style="position: relative; height: 21cm; overflow: hidden;">
+
+      <div style="position: absolute; width: 15cm;">
+        <h1 id="pusttenasnane" class="dark" style="text-align: center; padding: .2cm; margin: 0;">
+          PUSŤTE NÁS NA NĚ! POPEREME SE ZA VÁS
+        </h1>
+
+        <img style="width: 15cm;"
+          src="https://tabor.pirati.cz/static/media/futurecity.jpg" />
+
+        <h1 id="p1title" style="padding: .2cm 0; margin: 0;"></h1>
+        <script>$('#p1title').html(CLANEK1NADPIS)</script>
+
+        <div style="position: relative;">
+
+          <div class="regular"
+            style="position: absolute; width: 4.7cm; top: 0;" id="col1"></div>
+          <script>$('#col1').html(marked(P1CLANEK1SLOUPEC1))</script>
+
+          <div class="regular"
+            style="position: absolute; width: 4.7cm; top: 0; left: 5cm;" id="col2"></div>
+          <script>$('#col2').html(marked(P1CLANEK1SLOUPEC2))</script>
+
+          <div class="regular"
+            style="position: absolute; width: 4.7cm; top: 0; left: 10cm;" id="col3"></div>
+          <script>$('#col3').html(marked(P1CLANEK1SLOUPEC3))</script>
+        </div>
+
+      </div>
+
+      <div style="position: absolute; right: 0; width: 5cm;">
+        <div class="regular" id="p1right" style="padding: 0 .2cm;"></div>
+        <script>$('#p1right').html(marked(P1_VPRAVO))</script>
+
+        <div class="regular" id="p1rightd"
+          style="color: white; background-color: #444; padding: .2cm;"></div>
+        <script>$('#p1rightd').html(marked(P1_VPRAVO_DOLE))</script>
+      </div>
+
+    </div>
+
+    <div class="dark" style="text-align: center; padding: .2cm">
+      TY KONТROLUJEŠ MĚSTO. NE ONO TEBE.
+    </div>
+
+  </div>
+
+</body>
+</html>
