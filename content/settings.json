@@ -1,0 +1,12 @@
+{
+  "WEB": "tabor.pirati.cz",
+  "CLANEK1NADPIS": "Super rozhovor s lidrem nevim",
+  "ODKAZY_NAHORE": [
+    {"title": "Rozhovor s leaderem", "str": 3},
+    {"title": "Hlavni tema", "str": 3},
+    {"title": "Nevim co", "str": 4},
+    {"title": "Krizovka", "str": 5},
+    {"title": "Nevim co", "str": 4},
+    {"title": "Krizovka", "str": 5}
+  ]
+}
